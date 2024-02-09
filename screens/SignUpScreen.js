@@ -11,15 +11,6 @@ const SignUpScreen = () => {
 
   const navigation = useNavigation();
 
-  const handleSubmit = () => {
-    if(email && password) {
-        // good to go
-        navigation.navigate('Home');
-    } else {
-        // show error
-    }
-  }
-
   return (
     <ScreenWrapper>
       <ScrollView>
